@@ -1,22 +1,122 @@
 <!doctype html>
-        <html>
+<html>
 <title>Vanilla</title>
 <head>
-
-
-
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
 
-<h1>External JavaScript</h1>
+<h1>Ketan's Profile</h1>
 
 <p id="demo">A Paragraph.</p>
 
-<button type="button" onclick="myFunction()">Try it</button>
+<button class="btn-primary" type="button" onclick="myFunction()">Try it</button>
+
+<table class="table table-striped table-bordered">
+    <thead>
+    <tr class="row">
+        <th>
+        <td>
+            S.No
+        </td>
+        </th>
+        <th>
+        <td>
+            Institution
+        </td>
+        </th>
+        <th>
+        <td>
+            Qualification
+        </td>
+        </th>
+        <th>
+        <td>
+            Years Attended
+        </td>
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="row">
+        <th>
+        <td>
+            1
+        </td>
+        </th>
+        <th>
+        <td>
+            JNTU HYD
+        </td>
+        </th>
+        <th>
+        <td>
+            BTech
+        </td>
+        </th>
+        <th>
+        <td>
+            2009-2013
+        </td>
+        </th>
+    </tr>
+    <tr class="row">
+        <th>
+        <td>
+            2
+        </td>
+        </th>
+        <th>
+        <td>
+            SIUC
+        </td>
+        </th>
+        <th>
+        <td>
+            M.S
+        </td>
+        </th>
+        <th>
+        <td>
+            2013-2015
+        </td>
+        </th>
+    </tr>
+    </tbody>
+
+
+</table>
 
 <p><strong>Note:</strong> myFunction is stored in an external file called "myScript.js".</p>
+<ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+    <li><a data-toggle="tab" href="#menu1">My Experience</a></li>
+    <li><a data-toggle="tab" href="#menu2">My Subscriptions</a></li>
+</ul>
+
+<div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+        <h3>About Me</h3>
+        <blockquote>Success is the result of perfection,hardwork, learning from failure,loyalty and persistence - Collin Powell</blockquote>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+        <h3>Menu 1</h3>
+        <p>Some content in menu 1.</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+        <h3>Menu 2</h3>
+        <p>Some content in menu 2.</p>
+    </div>
+</div>
+
+
 
 <script src="script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
