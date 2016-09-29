@@ -1,0 +1,19 @@
+{
+  "name": "samplevanillaap",
+  "version": "1.0.0",
+  "description": "This is my sample app",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ketan40/firstRepo.git"
+  },
+  "author": "Ketan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ketan40/firstRepo/issues"
+  },
+  "homepage": "https://github.com/ketan40/firstRepo#readme"
+}
